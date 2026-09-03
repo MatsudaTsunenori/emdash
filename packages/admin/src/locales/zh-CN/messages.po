@@ -873,12 +873,12 @@ msgid "admin"
 msgstr ""
 
 #: packages/admin/src/components/settings/ApiTokenSettings.tsx:102
-#: packages/admin/src/components/Sidebar.tsx:426
+#: packages/admin/src/components/Sidebar.tsx:440
 #: packages/admin/src/components/users/roleDefinitions.ts:42
 msgid "Admin"
 msgstr "管理员"
 
-#: packages/admin/src/components/Sidebar.tsx:372
+#: packages/admin/src/components/Sidebar.tsx:386
 msgid "Admin navigation"
 msgstr "管理员导航"
 
@@ -1497,14 +1497,14 @@ msgstr ""
 msgid "Byline schema"
 msgstr "署名架构"
 
-#: packages/admin/src/components/Sidebar.tsx:295
+#: packages/admin/src/components/Sidebar.tsx:309
 msgid "Byline Schema"
 msgstr ""
 
 #: packages/admin/src/components/BylineFilter.tsx:145
 #: packages/admin/src/components/ContentSettingsPanel.tsx:669
 #: packages/admin/src/components/ContentSettingsPanel.tsx:673
-#: packages/admin/src/components/Sidebar.tsx:285
+#: packages/admin/src/components/Sidebar.tsx:299
 #: packages/admin/src/routes/bylines.tsx:375
 msgid "Bylines"
 msgstr "署名"
@@ -1925,7 +1925,7 @@ msgstr "评论详情"
 
 #: packages/admin/src/components/comments/CommentInbox.tsx:148
 #: packages/admin/src/components/ContentTypeEditor.tsx:500
-#: packages/admin/src/components/Sidebar.tsx:261
+#: packages/admin/src/components/Sidebar.tsx:275
 msgid "Comments"
 msgstr "评论"
 
@@ -1986,7 +1986,7 @@ msgstr ""
 #: packages/admin/src/components/Dashboard.tsx:269
 #: packages/admin/src/components/PortableTextEditor.tsx:2748
 #: packages/admin/src/components/SectionEditor.tsx:215
-#: packages/admin/src/components/Sidebar.tsx:408
+#: packages/admin/src/components/Sidebar.tsx:422
 #: packages/admin/src/components/Widgets.tsx:899
 msgid "Content"
 msgstr "内容"
@@ -2046,7 +2046,7 @@ msgstr "要导入的内容"
 
 #: packages/admin/src/components/AdminCommandPalette.tsx:184
 #: packages/admin/src/components/ContentTypeList.tsx:116
-#: packages/admin/src/components/Sidebar.tsx:291
+#: packages/admin/src/components/Sidebar.tsx:305
 msgid "Content Types"
 msgstr "内容类型"
 
@@ -2470,8 +2470,8 @@ msgstr ""
 #: packages/admin/src/components/AdminCommandPalette.tsx:130
 #: packages/admin/src/components/ContentTypeList.tsx:358
 #: packages/admin/src/components/Dashboard.tsx:56
-#: packages/admin/src/components/Sidebar.tsx:246
-#: packages/admin/src/components/Sidebar.tsx:399
+#: packages/admin/src/components/Sidebar.tsx:260
+#: packages/admin/src/components/Sidebar.tsx:413
 msgid "Dashboard"
 msgstr "仪表板"
 
@@ -4599,7 +4599,7 @@ msgid "Images"
 msgstr "图片"
 
 #: packages/admin/src/components/AdminCommandPalette.tsx:226
-#: packages/admin/src/components/Sidebar.tsx:333
+#: packages/admin/src/components/Sidebar.tsx:347
 #: packages/admin/src/components/WordPressImport.tsx:756
 msgid "Import"
 msgstr "导入"
@@ -5360,7 +5360,7 @@ msgstr "发起网络请求"
 msgid "Make network requests to any host (unrestricted)"
 msgstr "向任何主机发起网络请求（不受限制）"
 
-#: packages/admin/src/components/Sidebar.tsx:418
+#: packages/admin/src/components/Sidebar.tsx:432
 msgid "Manage"
 msgstr "管理"
 
@@ -5436,7 +5436,7 @@ msgstr "Markdown"
 #: packages/admin/src/components/MarketplaceBrowse.tsx:87
 #: packages/admin/src/components/PluginManager.tsx:190
 #: packages/admin/src/components/PluginManager.tsx:403
-#: packages/admin/src/components/Sidebar.tsx:315
+#: packages/admin/src/components/Sidebar.tsx:329
 msgid "Marketplace"
 msgstr "市场"
 
@@ -5463,7 +5463,7 @@ msgstr "MDX"
 #: packages/admin/src/components/PortableTextEditor.tsx:2718
 #: packages/admin/src/components/PortableTextEditor.tsx:2733
 #: packages/admin/src/components/Settings.tsx:70
-#: packages/admin/src/components/Sidebar.tsx:256
+#: packages/admin/src/components/Sidebar.tsx:270
 #: packages/admin/src/components/WordPressImport.tsx:770
 #: packages/admin/src/components/WordPressImport.tsx:1163
 #: packages/admin/src/components/WordPressImport.tsx:1350
@@ -5588,7 +5588,7 @@ msgstr "菜单顺序已更新。"
 
 #: packages/admin/src/components/AdminCommandPalette.tsx:160
 #: packages/admin/src/components/MenuList.tsx:104
-#: packages/admin/src/components/Sidebar.tsx:266
+#: packages/admin/src/components/Sidebar.tsx:280
 #: packages/admin/src/components/WordPressImport.tsx:1167
 msgid "Menus"
 msgstr "菜单"
@@ -6732,8 +6732,8 @@ msgstr "插件组件错误"
 #: packages/admin/src/components/PluginManager.tsx:153
 #: packages/admin/src/components/PluginManager.tsx:162
 #: packages/admin/src/components/PluginManager.tsx:172
-#: packages/admin/src/components/Sidebar.tsx:299
-#: packages/admin/src/components/Sidebar.tsx:434
+#: packages/admin/src/components/Sidebar.tsx:313
+#: packages/admin/src/components/Sidebar.tsx:448
 msgid "Plugins"
 msgstr "插件"
 
@@ -6984,7 +6984,7 @@ msgstr "正在重定向到登录..."
 
 #: packages/admin/src/components/Redirects.tsx:364
 #: packages/admin/src/components/Redirects.tsx:385
-#: packages/admin/src/components/Sidebar.tsx:269
+#: packages/admin/src/components/Sidebar.tsx:283
 msgid "Redirects"
 msgstr "重定向"
 
@@ -7033,7 +7033,7 @@ msgstr "注册失败"
 msgid "Registration was cancelled or timed out. Please try again."
 msgstr "注册已取消或超时。请重试。"
 
-#: packages/admin/src/components/Sidebar.tsx:308
+#: packages/admin/src/components/Sidebar.tsx:322
 msgid "Registry"
 msgstr "插件仓库"
 
@@ -7797,7 +7797,7 @@ msgstr "区块标题"
 
 #: packages/admin/src/components/AdminCommandPalette.tsx:176
 #: packages/admin/src/components/Sections.tsx:134
-#: packages/admin/src/components/Sidebar.tsx:274
+#: packages/admin/src/components/Sidebar.tsx:288
 msgid "Sections"
 msgstr "区块"
 
@@ -8097,7 +8097,7 @@ msgstr "正在设置..."
 #: packages/admin/src/components/Header.tsx:101
 #: packages/admin/src/components/PluginManager.tsx:491
 #: packages/admin/src/components/Settings.tsx:44
-#: packages/admin/src/components/Sidebar.tsx:337
+#: packages/admin/src/components/Sidebar.tsx:351
 #: packages/admin/src/components/WordPressImport.tsx:1827
 msgid "Settings"
 msgstr "设置"
@@ -8678,7 +8678,7 @@ msgstr "主题提供的区块无法删除。编辑区块以创建自定义副本
 msgid "Theme: {label}"
 msgstr "主题：{label}"
 
-#: packages/admin/src/components/Sidebar.tsx:324
+#: packages/admin/src/components/Sidebar.tsx:338
 #: packages/admin/src/components/ThemeMarketplaceBrowse.tsx:77
 msgid "Themes"
 msgstr "主题"
@@ -9469,7 +9469,7 @@ msgid "User not found"
 msgstr "未找到用户"
 
 #: packages/admin/src/components/AdminCommandPalette.tsx:210
-#: packages/admin/src/components/Sidebar.tsx:296
+#: packages/admin/src/components/Sidebar.tsx:310
 #: packages/admin/src/components/users/UserList.tsx:55
 msgid "Users"
 msgstr "用户"
@@ -9725,7 +9725,7 @@ msgstr "小部件已更新"
 
 #: packages/admin/src/components/AdminCommandPalette.tsx:168
 #: packages/admin/src/components/PluginManager.tsx:427
-#: packages/admin/src/components/Sidebar.tsx:273
+#: packages/admin/src/components/Sidebar.tsx:287
 #: packages/admin/src/components/Widgets.tsx:388
 #: packages/admin/src/components/WordPressImport.tsx:1175
 msgid "Widgets"

@@ -68,6 +68,7 @@ export function LocaleSwitcher({
 				weight="bold"
 			/>
 			<Select<string>
+				className="emdash-locale-switcher-trigger"
 				value={value}
 				onValueChange={(nextValue) => {
 					if (typeof nextValue === "string" && nextValue !== value) onChange(nextValue);

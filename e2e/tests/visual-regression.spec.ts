@@ -101,19 +101,13 @@ const PAGES: PageCase[] = [
 	{
 		name: "menus-locale-switcher-open",
 		path: () => "/menus",
-		prepare: openFilter(
-			'[data-kumo-component="Select"][data-kumo-part="trigger"]',
-			'[role="listbox"]:visible',
-		),
+		prepare: openFilter(".emdash-locale-switcher-trigger", '[role="listbox"]:visible'),
 	},
 	{
 		name: "menus-locale-switcher-open-dark",
 		path: () => "/menus",
 		theme: "dark",
-		prepare: openFilter(
-			'[data-kumo-component="Select"][data-kumo-part="trigger"]',
-			'[role="listbox"]:visible',
-		),
+		prepare: openFilter(".emdash-locale-switcher-trigger", '[role="listbox"]:visible'),
 	},
 	{ name: "settings", path: () => "/settings" },
 ];

@@ -16,7 +16,7 @@ permissions:
 
 jobs:
   CLAssistant:
-    if: github.repository == 'emdash-cms/emdash'
+    if: github.repository_id == '1198246700'
     runs-on: ubuntu-latest
     steps:
       - name: "CLA Assistant"
@@ -35,7 +35,7 @@ jobs:
     needs: CLAssistant
     if: >-
       always() &&
-      github.repository == 'emdash-cms/emdash' &&
+      github.repository_id == '1198246700' &&
       (github.event_name == 'pull_request_target' || github.event.issue.pull_request)
     runs-on: ubuntu-latest
     steps:
